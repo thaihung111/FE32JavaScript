@@ -32,6 +32,10 @@ function themNguoiDung(){
         })
 }
 
+function themTestList(){
+    console.log("them nguoi dung thaihung2");
+}
+
 function getListUser(){
     nguoiDungService.layDanhSachNguoiDung()
         //neu nhu axios lay duoc thong tin thi` se co LOI HUA la .then()
