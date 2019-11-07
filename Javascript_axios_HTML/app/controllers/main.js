@@ -11,7 +11,7 @@ getEle("btnThemNguoiDung").addEventListener("click", function(){
     document.getElementsByClassName("modal-footer")[0].innerHTML = footer;
 })
 
-
+//Them nguoi dung
 function themNguoiDung(){
     var taiKhoan = getEle("TaiKhoan").value;
     var matKhau = getEle("MatKhau").value;
@@ -30,6 +30,10 @@ function themNguoiDung(){
         .catch(function(error){
             console.log(error);
         })
+}
+
+function themTestList(){
+    console.log("Them nguoi dung");
 }
 
 function getListUser(){
