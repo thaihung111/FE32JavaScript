@@ -33,7 +33,7 @@ function themNguoiDung(){
 }
 
 function themTestList(){
-    console.log("Them nguoi dung");
+    console.log("them nguoi dung thaihung2");
 }
 
 function getListUser(){
